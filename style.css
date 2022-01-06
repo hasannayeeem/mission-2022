@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.hero-area{
+padding-top: 50px;
+}
+.hero{
+display: flex;
+justify-content: center;
+
+}
+.hero-half-width{
+width: 50%;
+padding-left: 70px;
+}
+.hero__title{
+font-size: 60px;
+line-height: 80px;
+font-family: 'Yeseva One', cursive;
+border-left: 3px solid green;
+padding: 0 12px 0 12px;
+margin-bottom: 15px;
+margin-top: 85px;
+
+
+}
+.hero__title span{
+    color:green;
+    font-family: 'Yeseva One', cursive;
+
+}
+.hero__description{
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 20px;
+}
+.hero__link{
+display: inline-block;
+font-size: 16px;
+line-height: 24px;
+font-weight: 500;
+padding: 12px 25px;
+background: green;
+color: #fff;
+border-radius: 5px;
+margin-top: 15px;
+}
+.hero__more{
+font-size: 16px;
+line-height: 24px;
+display: block;
+margin-top: 40px;
+}
+.hero__img{
+    width: 90%;
+}
+
+.mission-cards-area{
+padding-top: 100px;
+}
+.mission-cards{
+display: flex;
+justify-content: center;
+padding: 40px;
+
+}
+.mission-cards__header{
+font-size: 48px;
+line-height: 70px;
+font-weight: 700;
+text-align: center;
+}
+.mission-cards__header span{
+color: green;
+}
+
+
+.mission-card-1{
+    width: 320px;
+    height: auto;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+    padding: 30px;
+    margin-right: 20px;
+
+}
+.mission-card-2{
+    width: 320px;
+    height: auto;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 26px;
+    padding: 30px;
+    margin-right: 20px;
+    
+    }
+.mission-card-3{
+    width: 320px;
+    height: auto;
+    background: #7ff388;
+    border-radius: 26px;
+    padding: 30px;
+    margin-right: 20px;
+            
+ }
+.card__img{
+    width: 141px;
+    height: 141px;
+}
+.card__title{
+font-size: 24px;
+line-height: 36px;
+font-weight: 600;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+.card__description{
+font-size: 16px;
+line-height: 24px;
+margin-top: 20px;
+color: #424242;
+}
+
+/* font-family: 'Lobster', cursive; */
